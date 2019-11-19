@@ -6,13 +6,13 @@ import { AppComponent } from './app.component';
 import {NgxPaginationModule} from 'ngx-pagination';
 import { FilterPipeModule } from 'ngx-filter-pipe';
 import {FlexLayoutModule} from '@angular/flex-layout';
-import { FlexComponent } from './flex/flex.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    FlexComponent
+
   ],
   imports: [
     BrowserModule,
